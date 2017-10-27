@@ -32,19 +32,19 @@ Or add the library as a project.
 #### Other Options
 In the xml definition,  you can set:
 
-* z_depth: the shadow level, between depth0 to depth5, depth0 meas no shadow, depth5 meas the max shadow, default depth2.You can also set the shadow freely in java code.
-* z_depth_shape: the shadow shape, obtain rect and oval.Default rect.
-* touch_level: the int parameter, default value is 2.The bigger the number, the bigger the max Z depth.
-* do_anim: if show shadow with anim.Default value is true.
-* anim_duration: the anim duration.
-* shadow_color: the shadow color.
+* **z_depth:** the shadow level, between depth0 to depth5, depth0 meas no shadow, depth5 meas the max shadow, default depth2.You can also set the shadow freely in java code.
+* **z_depth_shape:** the shadow shape, obtain rect and oval.Default rect.
+* **touch_level:** the int parameter, default value is 2.The bigger the number, the bigger the max Z depth.
+* **do_anim:** if show shadow with anim.Default value is true.
+* **anim_duration:** the anim duration.
+* **shadow_color:** the shadow color.
 
 #### In Java Code
 
-* setTouchLevel(int touchLevel)
-* setShadowColor(int shadowColor)
-* setZDepth(int depth): like xml definition "z_depth", between 0 to 5.
-* setZDepth(ZDepth zDepth): new ZDepth(float mOffsetYTopShadow, float mOffsetYBottomShadow, float mOffsetXLeftShadow, float mOffsetXRightShadow).All the parameters are positive number.
+* **setTouchLevel(int touchLevel)**
+* **setShadowColor(int shadowColor)**
+* **setZDepth(int depth):** like xml definition "z_depth", between 0 to 5.
+* **setZDepth(ZDepth zDepth):** new ZDepth(float mOffsetYTopShadow, float mOffsetYBottomShadow, float mOffsetXLeftShadow, float mOffsetXRightShadow).All the parameters are positive number.
 
 # extend
 If you want use this view in RecycleView or Viewpager,they may exist sliding conflicts.
@@ -54,3 +54,20 @@ If you want use this view in RecycleView or Viewpager,they may exist sliding con
 # Developed By
 
  * Mandome - <abcd553847323@gmail.com>
+ 
+ License
+ -------
+ 
+     Copyright 2017 Mandome
+ 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+ 
+        http://www.apache.org/licenses/LICENSE-2.0
+ 
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
