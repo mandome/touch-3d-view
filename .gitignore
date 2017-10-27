@@ -7,3 +7,5 @@
 /build
 /captures
 .externalNativeBuild
+/touch3DView/build.gradle
+libs/
