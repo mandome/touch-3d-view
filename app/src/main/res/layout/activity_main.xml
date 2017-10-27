@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bruce.simple.MainActivity">
+
+    <com.bruce.touch.Touch3DView
+        android:id="@+id/touch_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:shadow_color="@color/mShadowColor"
+        app:z_depth="depth2"
+        app:touch_level="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_corner"
+            />
+    </com.bruce.touch.Touch3DView>
+
+</RelativeLayout>

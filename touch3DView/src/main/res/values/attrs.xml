@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Touch3DView">
+        <attr name="z_depth" format="enum">
+            <enum name="depth0" value="0"/>
+            <enum name="depth1" value="1"/>
+            <enum name="depth2" value="2"/>
+            <enum name="depth3" value="3"/>
+            <enum name="depth4" value="4"/>
+            <enum name="depth5" value="5"/>
+        </attr>
+        <attr name="z_depth_shape" format="enum">
+            <enum name="rect" value="0"/>
+            <enum name="oval" value="1"/>
+        </attr>
+        <attr name="touch_level" format="integer"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="do_anim" format="boolean"/>
+        <attr name="shadow_color" format="color"/>
+    </declare-styleable>
+</resources>
