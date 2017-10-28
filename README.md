@@ -10,7 +10,7 @@ For a working implementation of this project see the `app/` folder.
 1. Include the following dependency in your `build.gradle` file.
 
 ```groovy
-compile 'com.mandome.touch3dview:1.0.0'
+compile 'com.mandome:touch3DView:1.0.0'
 ```
 
 Or add the library as a project.
@@ -47,7 +47,7 @@ In the xml definition,  you can set:
 * **setZDepth(ZDepth zDepth):** new ZDepth(float mOffsetYTopShadow, float mOffsetYBottomShadow, float mOffsetXLeftShadow, float mOffsetXRightShadow).All the parameters are positive number.
 
 # extend
-If you want use this view in RecycleView or Viewpager,they may exist sliding conflicts.
+If you want to use this view in RecycleView or Viewpager,they may exist sliding conflicts.
 #### Use In RecycleView
 #### Use In ViewPager
 
