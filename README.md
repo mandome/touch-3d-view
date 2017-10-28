@@ -49,8 +49,9 @@ In the xml definition,  you can set:
 # extend
 If you want to use this view in RecycleView or Viewpager,they may exist sliding conflicts.
 #### Use In RecycleView
+For a working implementation of this see the `app/MyRecyclerView` folder and `app/` simple.I provide an example in the project.
 #### Use In ViewPager
-
+You can see the `app/MyRecyclerView` folder and overwrite the `onInterceptTouchEvent(MotionEvent e)` method.
 # Developed By
 
  * Mandome - <abcd553847323@gmail.com>
